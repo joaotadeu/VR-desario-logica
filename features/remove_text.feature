@@ -1,7 +1,7 @@
 # language: pt
 
 @remover_texto_apos_simbolos
-Funcionalidade: Remover texto após símbolos
+Funcionalidade: Remover texto após simbolos
 
   Cenario: Cenário 1
     Dado a string de entrada "bananas, tomates # e ventiladores"
