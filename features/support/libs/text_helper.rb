@@ -7,4 +7,3 @@ class TextHelper
     end
 
 end
-  
