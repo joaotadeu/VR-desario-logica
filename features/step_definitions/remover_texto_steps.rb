@@ -7,7 +7,7 @@ E('os marcadores {string} e {string}') do |marcador1, marcador2|
 end
 
 Então('a saída esperada é: {string}') do |saida_esperada|
-  resultado = remover_texto_pos_marcador(@string_entrada, @marcadores)
+  resultado = @text_helper.remover_texto_pos_marcador(@string_entrada, @marcadores)
   expect(resultado).to eq(saida_esperada)
 end
 
@@ -16,13 +16,6 @@ E('os marcadores {string} e {string} e {string} e {string}') do |marcador1, marc
 end
 
 Então('a saída esperada para o cenário 3 é: {string}') do |saida_esperada|
-  resultado = remover_texto_pos_marcador(@string_entrada, @marcadores)
+  resultado = @text_helper.remover_texto_pos_marcador(@string_entrada, @marcadores)
   expect(resultado).to eq(saida_esperada)
-end
-
-def remover_texto_pos_marcador(string, marcadores)
-    marcadores.each do |marcador|
-      string = string.sub(/#{Regexp.escape(marcador)}.*/, '').strip
-    end
-  string
 end
