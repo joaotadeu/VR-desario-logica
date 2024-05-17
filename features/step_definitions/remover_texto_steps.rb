@@ -1,5 +1,3 @@
-require 'rspec/expectations'
-
 Dado('a string de entrada {string}') do |string_entrada|
   @string_entrada = string_entrada
 end
