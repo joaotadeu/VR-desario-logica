@@ -1,11 +1,3 @@
-Teste Prático
-Obrigado por participar do nosso processo seletivo da VR Benefícios.
-Nossa stack tecnológica aqui é Cypress para teste de frontend e Cucumber + Ruby + HTTParty para teste de backend.
-Regras:
-• O exercício deve ser entregue em um repositório público do GitHub
-• Lembre-se de incluir comentários nos seus arquivos. Eles são importantes para entendermos seu modo de
-pensar.
-• O exercício deve ser entregue em até́ uma semana a partir do recebimento
 
 Crie um método que receba dois parâmetros: uma string e um array.
 Essa função deve remover todo o texto que vier após qualquer um dos símbolos recebidos no array.
